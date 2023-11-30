@@ -1,0 +1,7 @@
+## Interface: 90001
+## Title: SimpleReadyCheck
+## Version: 0.1
+## Author: iwatkot
+## Notes: A simple WoW addon for raid/party ready checks
+## SavedVariables: SimpleReadyCheck_Position
+SimpleReadyCheck.lua

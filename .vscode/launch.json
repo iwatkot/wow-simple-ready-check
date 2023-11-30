@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch WoW",
+        "type": "lua",
+        "request": "launch",
+        "stopOnEntry": false,
+        "program": "${workspaceFolder}/SimpleReadyCheck.lua",
+        "cwd": "${workspaceFolder}",
+        "args": [],
+        "runtimeExecutable": "C:/Games/World of Warcraft/_classic_/WowClassic.exe",
+        "runtimeArgs": ["-console"],
+        "env": {},
+        "console": "internalConsole",
+        "sourceMaps": true,
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\bListening on\\s+(\\S+)"
+        },
+        "preLaunchTask": "Start WoW"
+      }
+    ]
+}
+  

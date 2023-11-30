@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start WoW",
+      "type": "shell",
+      "command": "C:/Games/World of Warcraft/_classic_/WowClassic.exe",
+      "args": ["-console"],
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
